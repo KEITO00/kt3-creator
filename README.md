@@ -21,7 +21,7 @@ App for making `.kt3` / `.kt4` files for [KT3 Player](https://github.com/KEITO00
 Output: `.kt3` uses Ogg Opus audio. `.kt4` uses MP4 with VP9 video and Opus audio.
 See [kt3-format](https://github.com/KEITO00/kt3-format) for details.
 
-### Supported input
+### Supported input formats
 
 | Type | Extensions |
 |---|---|
@@ -70,7 +70,7 @@ at the bottom left of the app.
 書き出す形式：`.kt3` は Ogg Opus、`.kt4` は MP4（映像は VP9、音声は Opus）。
 詳しくは [kt3-format](https://github.com/KEITO00/kt3-format) を見てください。
 
-### 開けるファイル
+### 読み込める形式
 
 | 種類 | 拡張子 |
 |---|---|
