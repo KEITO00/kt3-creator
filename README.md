@@ -15,10 +15,13 @@ App for making `.kt3` / `.kt4` files for [KT3 Player](https://github.com/KEITO00
 - Vocal and instrumental tracks
 - Thumbnail
 - Trimming of audio and video
+- Editing: cut, copy, paste, delete, fades, volume, and joining other audio or video
 - Video preview
 - Exported files can be opened and edited again
+- Work in progress can be saved as a `.ktp` file, which contains all the media
+  - Double-click it to continue in KT3 Creator
 
-Output: `.kt3` uses Ogg Opus audio. `.kt4` uses MP4 with VP9 video and Opus audio.
+Output: audio is [KTC](https://github.com/KEITO00/ktc) for both `.kt3` and `.kt4`. The video of `.kt4` is MP4 with VP9 video.
 See [kt3-format](https://github.com/KEITO00/kt3-format) for details.
 
 ### Supported input formats
@@ -28,6 +31,7 @@ See [kt3-format](https://github.com/KEITO00/kt3-format) for details.
 | Audio | mp3, ogg, opus, wav, m4a |
 | Video | mp4, webm, mov, mkv, avi, m4v |
 | KT files | kt3, kt4 |
+| Work in progress | ktp |
 | Lyrics | lrc, txt |
 | Thumbnail | png, jpg, webp, gif, bmp |
 
@@ -64,10 +68,13 @@ at the bottom left of the app.
 - ボーカルとインストの音声
 - サムネイル
 - 音声・動画の切り取り
+- 編集：切り取り・コピー・貼り付け・削除、フェード、音量、別の音声や動画のつなぎ合わせ
 - 動画のプレビュー
 - 書き出したファイルを開いて編集し直せます
+- 編集中の状態を、素材ごと `.ktp` ファイルに保存できます
+  - ダブルクリックで KT3 Creator が開き、続きから編集できます
 
-出力形式：`.kt3` は Ogg Opus、`.kt4` は MP4（映像は VP9、音声は Opus）。
+出力形式：音声は、`.kt3` も `.kt4` も [KTC](https://github.com/KEITO00/ktc) です。`.kt4` の動画は MP4（映像は VP9）です。
 詳しくは [kt3-format](https://github.com/KEITO00/kt3-format) を参照してください。
 
 ### 読み込める形式
@@ -77,6 +84,7 @@ at the bottom left of the app.
 | 音声 | mp3、ogg、opus、wav、m4a |
 | 動画 | mp4、webm、mov、mkv、avi、m4v |
 | KT ファイル | kt3、kt4 |
+| 編集中のファイル | ktp |
 | 歌詞 | lrc、txt |
 | サムネイル | png、jpg、webp、gif、bmp |
 
