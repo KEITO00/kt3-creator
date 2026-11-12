@@ -20,6 +20,8 @@ App for making `.kt3` / `.kt4` files for [KT3 Player](https://github.com/KEITO00
 - Exported files can be opened and edited again
 - Work in progress can be saved as a `.ktp` file, which contains all the media
   - Double-click it to continue in KT3 Creator
+- Batch conversion: select several `.ktp` files and export them all to `.kt3` / `.kt4`
+  - The files are saved in the folder you choose, with the same names as the `.ktp` files.
 
 Output: audio is [KTC](https://github.com/KEITO00/ktc) for both `.kt3` and `.kt4`. You can choose standard or high quality. High quality files are about twice as large. The video of `.kt4` is MP4 with VP9 video.
 See [kt3-format](https://github.com/KEITO00/kt3-format) for details.
@@ -73,6 +75,8 @@ at the bottom left of the app.
 - 書き出したファイルの再編集
 - 編集中の状態を、素材を含めて `.ktp` ファイルに保存
   - ダブルクリックすると KT3 Creator が起動し、続きから編集できます
+- まとめて変換：複数の `.ktp` を選択し、`.kt3`・`.kt4` にまとめて書き出し
+  - 選択したフォルダに、`.ktp` と同じ名前で保存します。
 
 出力形式：音声は、`.kt3`・`.kt4` ともに [KTC](https://github.com/KEITO00/ktc) です。標準と高音質を選択できます（高音質は、ファイルのサイズが約 2 倍になります）。`.kt4` の動画は MP4（映像は VP9）です。
 詳しくは [kt3-format](https://github.com/KEITO00/kt3-format) を参照してください。
